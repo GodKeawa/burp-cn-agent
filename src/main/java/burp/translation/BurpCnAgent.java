@@ -24,9 +24,9 @@ import java.util.jar.JarOutputStream;
 public class BurpCnAgent {
 
     public static void premain(String agentArgs, Instrumentation inst) {
-        System.out.println("=================================================");
-        System.out.println("  Burp Suite Modern CN Agent (ByteBuddy Powered)  ");
-        System.out.println("=================================================");
+        System.out.println("=============================");
+        System.out.println("  Burp Suite zh_cn Agent  ");
+        System.out.println("=============================");
 
         boolean enableHan = true;
         boolean debug = false;
